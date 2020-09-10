@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="root">
+        <h1 style="text-align: center; color: teal;">Simple calculator</h1>
+        <form name="calculator">
+            <table id="body">
+                <tr>
+                    <td colspan="4" class="outputbox">
+                        <textarea name="display" id="display" readonly></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" class="AC" id="AC">AC</td>
+                    <td class="operator" id="/">/</td>
+                    <td class="operator" id="*">X</td>
+
+
+                </tr>
+
+                <tr>
+                    <td id="7" class="number">7</td>
+                    <td id="8" class="number">8</td>
+                    <td id="9" class="number">9</td>
+                    <td class="operator" id="-">-</td>
+
+                </tr>
+                <tr>
+                    <td id="4" class="number">4</td>
+                    <td id="5" class="number">5</td>
+                    <td id="6" class="number">6</td>
+                    <td class="operator" id="+">+</td>
+
+
+                </tr>
+
+                <tr>
+
+                    <td id="1" class="number">1</td>
+                    <td id="2" class="number">2</td>
+                    <td id="3" class="number">3</td>
+                    <td rowspan="2" class="equals" id="=">=</td>
+
+
+                </tr>
+
+                <tr>
+                    <td colspan="2" class="number" id="0">0</td>
+                    <td id="." class="number">.</td>
+                </tr>
+            </table>
+        </form>
+        <div>
+
+            <script src=app.js></script>
+</body>
+
+</html>
