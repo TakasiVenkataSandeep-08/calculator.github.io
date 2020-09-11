@@ -46,7 +46,7 @@ window.onload = function() {
         else if (e.target.id == "+" || e.target.id == "*" || e.target.id == "-" || e.target.id == "/" || e.target.id == ".") {
 
             // allow to add decimal numbers initially
-            if (e.target.id == "." && (content == "0" || content == "")) {
+            if (operator.includes(e.target.id) && (content == "0" || content == "")) {
                 content = "0" + e.target.id
                 textbox.value = content
 
